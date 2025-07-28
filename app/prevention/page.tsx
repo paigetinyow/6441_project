@@ -317,64 +317,92 @@ export default function PreventionPage() {
       {/* resources */}
       <section className="mb-16">
         <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Resources</h2>
-        <Card className="mb-16 border-gray-200 bg-white-50">
-          <CardHeader>
-            <CardTitle className="flex items-center space-x-2">
-              <span>Know how to protect yourself</span>
-            </CardTitle>
-            <CardDescription>Protect yourself with the correct tips and tools. Use these trusted links to read more information.</CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-4">
-          <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-2">Tips to avoid QR code scams</h3>
-                <ul className="mt-2 space-y-1 text-gray-600">
-                  <li>
-                    <a href="https://www.crimestoppersvic.com.au/events/decoding-qr-code-scams/"
-                      target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
-                      Decoding QR Code Scams
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://cybershack.com.au/consumer-advice/qr-code-scams-how-to-spot-and-stop-them-guide/"
-                      target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
-                      QR code scams now at epidemic level
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.thalesgroup.com/en/worldwide-digital-identity-and-security/enterprise-cybersecurity/magazine/qr-jacks-and-quishing-how"
-                      target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
-                      How to protect yourself from the growing QR code scam threat
-                    </a>
-                  </li>
-                </ul>
+        <div className="max-w-screen-lg mx-auto px-4">
+          <Card className="mb-16 border-gray-200 bg-white-50">
+            <CardHeader>
+              <CardTitle className="flex items-center space-x-2">
+                <span>Know how to protect yourself</span>
+              </CardTitle>
+              <CardDescription>
+                Protect yourself with the correct tips and tools. Use these trusted links to read more information.
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Tips to avoid QR code scams</h3>
+                  <ul className="mt-2 space-y-1 text-gray-600">
+                    <li>
+                      <a
+                        href="https://www.crimestoppersvic.com.au/events/decoding-qr-code-scams/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-600 underline"
+                      >
+                        Decoding QR Code Scams
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://cybershack.com.au/consumer-advice/qr-code-scams-how-to-spot-and-stop-them-guide/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-600 underline"
+                      >
+                        QR code scams now at epidemic level
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.thalesgroup.com/en/worldwide-digital-identity-and-security/enterprise-cybersecurity/magazine/qr-jacks-and-quishing-how"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-600 underline"
+                      >
+                        How to protect yourself from the growing QR code scam threat
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Tools to protect against QR code scams</h3>
+                  <ul className="mt-2 space-y-1 text-gray-600">
+                    <li>
+                      <a
+                        href="https://www.uniqode.com/blog/qr-code-basics/best-qr-code-scanner-apps#Best-QR-Code-scanners-for-iOS-and-Android"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-600 underline"
+                      >
+                        7 Best QR Code Scanner Apps in 2025
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/protect-your-organizations-against-qr-code-phishing-with-defender-for-office-365/4007041"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-600 underline"
+                      >
+                        Microsoft Defender
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.mcafee.com/en-us/scam-detector/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-600 underline"
+                      >
+                        Text Scam Detector
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div>
-              <h3 className="font-semibold text-gray-900 mb-2">Tools to protect against QR code scams</h3>
-              <ul className="mt-2 space-y-1 text-gray-600">
-                  <li>
-                    <a href="https://www.uniqode.com/blog/qr-code-basics/best-qr-code-scanner-apps#Best-QR-Code-scanners-for-iOS-and-Android"
-                      target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
-                      7 Best QR Code Scanner Apps in 2025
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/protect-your-organizations-against-qr-code-phishing-with-defender-for-office-365/4007041"
-                      target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
-                      Microsoft Defender
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.mcafee.com/en-us/scam-detector/"
-                      target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
-                      Text Scam Detector
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+            </CardContent>
+          </Card>
+        </div>
       </section>
 
       {/* footer */}
