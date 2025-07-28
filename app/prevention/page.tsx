@@ -298,7 +298,7 @@ export default function PreventionPage() {
         </section>
 
         {/* share knowledge card */}
-        <div className="text-center bg-white rounded-2xl p-8 shadow-lg">
+        <div className="text-center bg-white rounded-2xl p-8 shadow-lg mb-16">
           <Users className="h-12 w-12 text-blue-600 mx-auto mb-4" />
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Share This Knowledge</h2>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
@@ -312,12 +312,10 @@ export default function PreventionPage() {
             </Link>
           </div>
         </div>
-      </main>
 
-      {/* resources */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Resources</h2>
-        <div className="max-w-screen-lg mx-auto px-4">
+        {/* resources */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Resources</h2>
           <Card className="mb-16 border-gray-200 bg-white-50">
             <CardHeader>
               <CardTitle className="flex items-center space-x-2">
@@ -402,8 +400,8 @@ export default function PreventionPage() {
               </div>
             </CardContent>
           </Card>
-        </div>
-      </section>
+        </section>
+      </main>
 
       {/* footer */}
       <footer className="bg-gray-900 text-white py-12 mt-16">

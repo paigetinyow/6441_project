@@ -212,7 +212,7 @@ export default function DangersPage() {
         </section>
 
         {/* prevention */}
-        <div className="text-center bg-white rounded-2xl p-8 shadow-lg">
+        <div className="text-center bg-white rounded-2xl p-8 shadow-lg mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Now That You Know the Dangers</h2>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
             Understanding the risks is the first step. Learn how to protect yourself and others from falling victim to these scams.
@@ -224,68 +224,66 @@ export default function DangersPage() {
             </Button>
           </Link>
         </div>
-      </main>
 
-      {/* resources */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Resources</h2>
-        <div className="max-w-screen-lg mx-auto px-4">
+        {/* resources */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Resources</h2>
           <Card className="mb-16 border-gray-200 bg-white-50">
-            <CardHeader>
-              <CardTitle className="flex items-center space-x-2">
-                <span>Stay Informed</span>
-              </CardTitle>
-              <CardDescription>
-                Protect yourself from QR code scams. Use these trusted links to read more information about QR code scams.
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">Dangers of QR code scams (Real life examples)</h3>
-                  <ul className="mt-2 space-y-1 text-gray-600">
-                    <li>
-                      <a href="https://7news.com.au/news/new-australia-post-qr-code-scam-targets-buyers-on-facebook-marketplace-c-17415772"
-                        target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
-                        Australia Post QR code scam on Facebook Marketplace
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.thetimes.com/business-money/money/article/first-phishing-now-quishing-dont-fall-for-fake-qr-codes-gl205kwbc"
-                        target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
-                        VAT QR Code Verification Letter
-                      </a>
-                    </li>
-                  </ul>
+              <CardHeader>
+                <CardTitle className="flex items-center space-x-2">
+                  <span>Stay Informed</span>
+                </CardTitle>
+                <CardDescription>
+                  Protect yourself from QR code scams. Use these trusted links to read more information about QR code scams.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h3 className="font-semibold text-gray-900 mb-2">Dangers of QR code scams (Real life examples)</h3>
+                    <ul className="mt-2 space-y-1 text-gray-600">
+                      <li>
+                        <a href="https://7news.com.au/news/new-australia-post-qr-code-scam-targets-buyers-on-facebook-marketplace-c-17415772"
+                          target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
+                          Australia Post QR code scam on Facebook Marketplace
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.thetimes.com/business-money/money/article/first-phishing-now-quishing-dont-fall-for-fake-qr-codes-gl205kwbc"
+                          target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
+                          VAT QR Code Verification Letter
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 mb-2">QR code statistics</h3>
+                    <ul className="mt-2 space-y-1 text-gray-600">
+                      <li>
+                        <a href="https://qrcodesaustralia.com.au/australia-qr-code-statistics"
+                          target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
+                          Australia QR Code Statistics
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.qrcode-tiger.com/qr-code-phishing-statistics"
+                          target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
+                          Alarming QR Codes You Must Know in 2025
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.qrcodechimp.com/qr-code-statistics/"
+                          target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
+                          QR Code Statistics for 2025
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">QR code statistics</h3>
-                  <ul className="mt-2 space-y-1 text-gray-600">
-                    <li>
-                      <a href="https://qrcodesaustralia.com.au/australia-qr-code-statistics"
-                        target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
-                        Australia QR Code Statistics
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.qrcode-tiger.com/qr-code-phishing-statistics"
-                        target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
-                        Alarming QR Codes You Must Know in 2025
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.qrcodechimp.com/qr-code-statistics/"
-                        target="_blank" rel="noopener noreferrer" className="text-gray-600 underline">
-                        QR Code Statistics for 2025
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
+              </CardContent>
+            </Card>
+        </section>
+      </main>
 
       {/* footer */}
       <footer className="bg-gray-900 text-white py-12 mt-16">
